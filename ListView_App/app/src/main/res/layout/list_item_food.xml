@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tvFruitname"
+        android:text="Apple"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tvOrigin"
+            android:text="Apple"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_green_dark"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/tvquantity"
+            android:text="Apple"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_purple"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</LinearLayout>
